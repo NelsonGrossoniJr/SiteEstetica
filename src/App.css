@@ -1,0 +1,322 @@
+/* _//item 2.3 realizado*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  scroll-behavior: smooth;
+}
+/*QUEM SOMOS*/
+#container{
+  display: grid;
+  grid-template-rows: 10vh 30vh auto;
+  grid-template-areas:
+    'headerGrid'
+    'mainHeaderGrid'
+    'mainGrid'
+    ;
+}
+
+#substituindoHeader {
+  grid-area: headerGrid;
+}
+
+
+/*HEADER-QUEMSOMOS*/
+header{
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#c9c983;
+  color: #616119;
+}
+
+a {
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+a:hover{
+  background-color: #d6d6a8;
+
+}
+a:visited{
+  color: #616119;
+}
+
+
+/*MAIN HEADER-QUEMSOMOS*/
+main-header{
+  grid-area: mainHeaderGrid;
+  background-image: url("./imagens/recepcaoClinicaEsteticaFundo.jpg");
+  background-size: cover;
+  font-size: 1.9em;
+
+}
+
+main-header div{
+  background-color:  #c9c983;
+  color: white;
+  width: 360px;
+  border-radius: 10%;
+  padding: 4px;
+  margin: 10px;
+  
+}
+
+
+
+/*MAIN-QUEMSOMOS*/
+main{
+  grid-area: mainGrid;
+  font-size:1.2em;
+  background-color: #c9c983;
+}
+
+.main_div_quemSomos{
+  text-align: center;
+  padding: 20px;
+  border: 5px solid #c9c983;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.main_div_quemSomos > p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.main_div_nossaEspecialista{
+  background-color: white;
+  border-radius: 10%;
+  margin-bottom: 50px
+}
+
+.main_div_nossaEspecialista > h1 {
+  margin-left: 20px;
+  padding-top: 30px
+}
+
+.main_div_nossaEspecialista > h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main_div_nossaEspecialista_div {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.main_div_nossaEspecialista_div > img {
+  width: 250px;
+  height: 260px;
+}
+
+
+/* TRATAMENTOS */
+#tratamentos_container {
+  display: grid;
+  grid-template-rows: ;
+  grid-template-areas:
+    'headerTratamento'
+    'mainTratamento'
+}
+
+.tratamentos_header {
+  grid-area: headerTratamento;
+  border: 5px solid  #c9c983;
+  text-align: center;
+  font-size: 1.3em;
+
+}
+
+.tratamentos_header > h1 {
+  margin: 20px;
+
+}
+
+.tratamentos_header > p{
+  margin: 10px;
+  font-style: italic;
+}
+
+
+
+.tratamentos_main {
+  grid-area: mainTratamento;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:  #c9c983;
+  padding-top: 10px;
+
+}
+
+.tratamentos_main_div-tarefa {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10%;
+  width: 80%;
+  height: 45%;
+  margin-bottom: 30px;
+  background-color: white;
+  
+}  
+
+.tratamentos_main_div-tarefa  h1{
+  margin: 10px;
+  text-align: center;
+}
+
+.tratamentos_main_div-tarefa > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px
+}
+
+.tratamentos_main_div_div-P p {
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.tratamentos_main_div_div-P h3 {
+  margin-left: 10px;
+}
+
+/*FALE CONOSCO*/
+
+.faleConosco_header {
+  text-align: center;
+  padding: 30px;
+  border: 5px solid  #c9c983;
+}
+
+.faleConosco_main {
+  height: auto;
+  border: 5px solid  #c9c983;
+  display: flex;
+  justify-content: center;
+  background-color: #c9c983; 
+}
+
+
+.faleConosco_main_div {
+  height: 40vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30%;
+  
+}
+
+
+
+
+/*AGENDAMENTOS*/
+
+.agendamentos_header {
+  text-align: center;
+  padding: 30px;
+  border: 5px solid #b8b842;
+
+}
+
+.agendamentos_header > h1 {
+ display: inline;
+  background-color: #b8b842; 
+  color: white;
+  padding: 20px
+}
+
+.agendamentos_main {
+  height: auto;
+  border: 5px solid #b8b842;
+  display: flex;
+  justify-content: center;
+  background-color: #b8b842; 
+}
+
+.agendamentos_main_div {
+  height: 40vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30%;
+
+}
+
+
+/*TRABALHE CONOSCO*/
+
+.trabalheConosco_header {
+  text-align: center;
+  padding: 30px;
+  border: 5px solid #c9c90d;
+
+}
+.trabalheConosco_header > h1{
+  display: inline;
+  background-color: #c9c90d;  
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.trabalheConosco_main {
+  height: auto;
+  border: 5px solid #c9c90d;
+  display: flex;
+  justify-content: center;
+  background-color: #c9c90d; 
+}
+
+.trabalheConosco_main_div {
+  height: 40vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 30%;
+}
+
+
+/*MEDIAS QUERIES*/
+
+@media (max-width: 1000px) {
+   
+  #hideImgDoutora{
+    display: none;
+  }
+
+  .tratamentos_main_div-tarefa {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+  background-color: white;
+  
+}  
+  
+}

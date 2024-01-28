@@ -1,0 +1,15 @@
+[
+  {
+  "nomeDoTratamento" : "Laser e Led",
+  "descricao" : "É um tratamento estético de ultima geração através de luzes terapêuticas, coadjuvante nos tratamentos de acne, clareamento de manchas, rejuvenescimento, estrias, calvície entre outros.",
+   "contraindicacoes" : "Contraindicado para quem tem histórico de Fotossensibilidade (dermatoses),Câncer de pele, História pessoal de Câncer no local, Gravidez, Glaucoma.",
+    "valor" : "Valor: R$ 120,00",
+    "imagem" : "https://clinicalifecare.com.br/wp-content/themes/clinicalifecare/images/coportal.jpg",
+
+  "nomeDoTratamento1" : "Limpeza de Pele",
+  "descricao1" : "Um dos tratamentos estéticos mais realizados no mundo, a limpeza de pele tem como objetivo remover os cravos e as impurezas, desobstruir os poros e melhorar a capacidade de absorção da pele.",
+   "contraindicacoes1" : "Contraindicado para quem tem pele muito sensível, peles que ficam vermelhas com facilidade, peles com muita descamação, peles que costumam desenvolver alergias e irritações com facilidade",
+  "valor1" : "Valor: R$ 60,00",
+  "imagem1" : "https://clinicalifecare.com.br/wp-content/themes/clinicalifecare/images/facial.jpg"
+  }
+]  
